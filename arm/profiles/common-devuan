@@ -121,6 +121,8 @@ rm -f /0
 rm -f /hs_err*
 rm -f cleanup
 rm -f /usr/bin/qemu*
+rm -f /etc/ssh/*key
+rm -f /etc/ssh/*key.pub
 EOF
 	sudo chmod +x $writebase/cleanup
 }
